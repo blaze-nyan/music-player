@@ -9,9 +9,9 @@ const Like = () => {
   return (
     <button onClick={handleLike} className="size-5 absolute right-5 top-3">
       {isLike ? (
-        <IoMdHeart className="text-red-600 text-[1.3rem]" />
+        <IoMdHeart className="text-red-600 text-[1.5rem]" />
       ) : (
-        <IoIosHeartEmpty className="text-[1.3rem]" />
+        <IoIosHeartEmpty className="text-[1.5rem]" />
       )}
     </button>
   );
